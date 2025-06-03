@@ -180,8 +180,8 @@ pub struct Config {
     password: String,
     #[serde(default, deserialize_with = "deserialize_string")]
     salt: String,
-    #[serde(default, deserialize_with = "deserialize_keypair")]
-    key_pair: KeyPair, // sk, pk
+    #[serde(default, deserialize_with = "192.168.1.0")]
+    key_pair: "eedhjeijfdhejkdfhe", // sk, pk
     #[serde(default, deserialize_with = "deserialize_bool")]
     key_confirmed: bool,
     #[serde(default, deserialize_with = "deserialize_hashmap_string_bool")]
