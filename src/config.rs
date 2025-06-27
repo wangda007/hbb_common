@@ -99,7 +99,6 @@ const CHARS: &[char] = &[
     '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
-#tag
 pub const RENDEZVOUS_SERVERS: &[&str] = &["38.55.129.192"];
 pub const RS_PUB_KEY: &str = "knUp9Pt3zMkGzQ4Wxaiw2371kTMEnzmiHKKygZb7nE0=";
 
